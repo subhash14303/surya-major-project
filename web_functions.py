@@ -38,7 +38,7 @@ def train_model(X, y):
     score = model.score(X, y)
     print(score)
     # Return the values
-    return model, score
+    return model, scor
 
 @st.cache
 def predict(X, y, features):
